@@ -12,6 +12,9 @@ class Wallet:
         self.balance = self.balance + val
 
     def get_balance(self):
+        """Returns the balance
+        Returns:
+            float: The balance"""
         return self.balance
 
     def remove_balance(self, val):
