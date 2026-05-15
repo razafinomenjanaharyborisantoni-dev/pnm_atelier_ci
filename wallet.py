@@ -9,4 +9,13 @@ class Wallet:
         return self.balance
 
     def remove_balance(self, val):
-        self.balance = self.balance - val
+         """
+        Substracts a value from balance
+
+        Args:
+            val (float): Value to be substracted from balance.
+
+        Returns:
+            float: The substraction of balance and val
+        """
+         self.balance = self.balance - val
