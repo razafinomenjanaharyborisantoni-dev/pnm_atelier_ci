@@ -1,8 +1,10 @@
 class Wallet:
     def __init__(self, balance):
-        """Initialisation of Wallet class
+        """
+        Initialisation of Wallet class
         Args:
-            balance (float): The first number."""
+            balance (float): The first number.
+        """
         self.balance = balance
 
     def set_balance(self, val):
