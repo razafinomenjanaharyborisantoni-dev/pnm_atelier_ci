@@ -3,6 +3,12 @@ class Wallet:
         self.balance = balance
 
     def set_balance(self, val):
+        """Adds a value to balance
+        Args:
+            val (float): Value to be added to balance.
+        Returns:
+            float: The addition of balance and val
+        """  
         self.balance = self.balance + val
 
     def get_balance(self):
